@@ -1,4 +1,4 @@
-package com.paysecure.paysecure_app;
+package com.paysecure.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
