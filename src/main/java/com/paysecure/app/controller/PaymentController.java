@@ -27,7 +27,7 @@ public class PaymentController {
     @GetMapping("/payment/status")
     public Map<String, String> paymentStatus(
             @RequestParam(defaultValue = "TXN123") String transactionId) {
-
+                paymentCounter.increment();
         Map<String, String> response = new HashMap<>();
         response.put("transactionId", transactionId);
         response.put("status", "SUCCESS");
