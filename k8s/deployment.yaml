@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: paysecure-app
-          image: 983988120878.dkr.ecr.ap-south-1.amazonaws.com/paysecure-app:1.0
+          image: 872505308228.dkr.ecr.ap-south-1.amazonaws.com/paysecure-app:1.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
